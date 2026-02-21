@@ -1,0 +1,20 @@
+<Project>
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <LangVersion>latest</LangVersion>
+
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+
+        <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+        <Deterministic>true</Deterministic>
+
+        <!-- Чтобы не было сюрпризов с кодировкой -->
+        <Utf8Output>true</Utf8Output>
+    </PropertyGroup>
+
+    <!-- Если у тебя WPF проект на net8.0-windows, не ломаем его -->
+    <PropertyGroup Condition="'$(UseWPF)' == 'true'">
+        <TargetFramework>net8.0-windows</TargetFramework>
+    </PropertyGroup>
+</Project>
