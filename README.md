@@ -10,6 +10,12 @@ This is a personal learning project where I practice:
 
 ---
 
+## Application Preview
+
+![App Demo](docs/2026-02-22 11-56-19.gif)
+
+---
+
 ## What it does (v1.0.0)
 
 - Add transactions (amount, category, note, type)
