@@ -10,7 +10,7 @@ This is a personal learning project where I practice:
 
 ---
 
-## Application Preview
+## Application Preview (v1.0.0)
 
 ![App Demo](docs/demo.gif)
 
